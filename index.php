@@ -19,11 +19,9 @@
                     html_str += "<legend>Pokédex</legend>";
                         html_str += "<div class='box'>";
                             html_str += "<h4>" +  "#" + res.national_id + " " +res.name + "</h4>";
-                            //html_str += "<img src='http://pokeapi.co/media/img/" + res.national_id + ".png' />";
                             if(res.national_id > 99) id = res.national_id;
                             else if(res.national_id > 9) id = "0" + res.national_id; 
                             else id = id = "00" + res.national_id;
-                            // html_str += "<img src='http://sprites.pokecheck.org/i/" + id + ".gif' />";
                             html_str += "<img src='http://pokemon.realgoodrealfast.com/gen1/" + id + ".gif' />";
                             html_str += "<div class='list'>";
                                 html_str += "<h5>Type(s)</h5>";
