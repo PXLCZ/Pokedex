@@ -1,0 +1,9 @@
+body {
+  font-family: pokemon;
+}
+
+ @font-face {
+    font-family: "pokemon";
+    src: url('pokemon.ttf') format('truetype');
+}
+
